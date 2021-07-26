@@ -1,0 +1,74 @@
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+body {
+    font: 12px/26px 'Roboto', sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+}
+.header{
+    padding: 20px;
+}
+.header .topik{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.header ul li{
+    position: inherit;
+    display: inline-block;
+    margin-right: 7px;
+}
+.header a{
+    text-decoration: none;
+    color: skyblue;
+    padding: 4px;
+
+}
+.header a:hover{
+    background-color: darkblue;
+    color: skyblue;
+}
+.img{
+    height: 280px;
+    background-image: url(https://images.unsplash.com/photo-1603515161074-3206aaeb03f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: 0 -600px;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid skyblue;
+}
+.content h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30;
+    font-weight: bold;
+}
+.content{
+    padding: 20px;
+}
+.content .create{
+    margin-top: -20px;
+    font-size: 11px;
+}
+.content .p1{
+    font-size: 12px;
+    font-weight: normal;
+}
+.content .p2{
+    font-size: 12px;
+    font-weight: normal;
+}
+.content .p3{
+    font-size: 12px;
+    font-weight: normal;
+}
+.content .p4{
+    font-size: 12px;
+    font-weight: normal;
+}
+.content .create a{
+    color: skyblue;
+    text-decoration: none;
+}
